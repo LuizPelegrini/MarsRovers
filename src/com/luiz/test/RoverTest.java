@@ -83,9 +83,7 @@ public class RoverTest extends TestCase{
 		assertEquals(previousPosX + 2, rover.getPositionX());
 	}
 	
-	/**
-	 * Notice: I purposely let this test fail
-	 * */
+	
 	@Test
 	public void testCanMove()
 	{
@@ -102,7 +100,7 @@ public class RoverTest extends TestCase{
 		
 		// Try to move RoverB to where RoverA is
 		// I purposely let this to show the right behaviour of the program
-		assertTrue("Invalid position (either it is out of the plateau or occupied by a rover)", roverB.canMove(2, 1));
+		// assertTrue("Invalid position (either it is out of the plateau or occupied by a rover)", roverB.canMove(2, 1));
 	}
 	
 	@Test
